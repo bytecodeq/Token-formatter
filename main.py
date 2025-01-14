@@ -5,7 +5,7 @@ def Formatter() -> None:
     success = 0
     failure = 0
     
-    with open("input/tokens.txt", "r") as input_file, open("output/formatted_tokens.txt", "w") as output_file:
+    with open("tokens.txt", "r") as input_file, open("formatted_tokens.txt", "w") as output_file:
         for line in input_file:
             line = line.strip()
             
